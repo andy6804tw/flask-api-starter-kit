@@ -24,8 +24,6 @@ After completing the installation step, you're ready to start the project.
 | script | Description |
 | ------| ------ |
 | start | Serves your app at localhost:5000 |
-| test | Runs unit tests with mocha  |
-| coverage | using istanbuljs/ync calculate coverage |
 
 
 `python run.py` running locally! Your app should now be running on [localhost:5000](http://localhost:5000/).
