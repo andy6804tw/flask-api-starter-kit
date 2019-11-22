@@ -3,9 +3,9 @@ import app.modules.upload as uploadModule
 from flask import Blueprint, request,jsonify
 
 
-upload = Blueprint('upload',__name__)
+uploadCtrl = Blueprint('upload',__name__)
 
-@upload.route('', methods=['GET','POST'])
+@uploadCtrl.route('', methods=['GET','POST'])
 def uploadFile():
   emptyFolder()
   result=uploadModule.uploadFile(request)
