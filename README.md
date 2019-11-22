@@ -30,9 +30,9 @@ After completing the installation step, you're ready to start the project.
 
 ## Contribute
 ### Report Issues and Improvement Suggestions
-File report at this project's [issue](https://github.com/andy6804tw/sharefile/issues) tracker if you noticed some problem or have improvement suggestions.
+File report at this project's [issue](https://github.com/andy6804tw/flask-api-starter-kit/issues) tracker if you noticed some problem or have improvement suggestions.
 ### Contribute to This Project
-Create your [fork](https://github.com/andy6804tw/sharefile/fork) repository, create and switch to a new Git branch, do your edits and commit as a new version, push them to your remote repository on GitHub and file us a [pull request](https://github.com/andy6804tw/sharefile/pulls) !
+Create your [fork](https://github.com/andy6804tw/flask-api-starter-kit/fork) repository, create and switch to a new Git branch, do your edits and commit as a new version, push them to your remote repository on GitHub and file us a [pull request](https://github.com/andy6804tw/flask-api-starter-kit/pulls) !
 ### Promote
 Promote this project so that more people recognize it !
 
