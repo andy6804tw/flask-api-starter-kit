@@ -1,2 +1,2 @@
 DEBUG = True
-# STATIC_FOLDER= 'publi'
+PORT=5003
