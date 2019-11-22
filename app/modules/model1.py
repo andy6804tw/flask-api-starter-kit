@@ -1,0 +1,3 @@
+
+def getResult():
+    return 'ddon'
