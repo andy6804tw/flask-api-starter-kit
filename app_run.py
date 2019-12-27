@@ -1,15 +1,9 @@
-from flask import *
-
-app = Flask(__name__)
-
-
-@app.route('/')
-@app.route('/index')
-def index():
-    data = "Deploying a Flask App To Heroku"
-    return "Deploying a Flask App To Heroku"
-
-
-
+from app import app
+import config
 if __name__ == '__main__':
-    app.run(debug=True)
+  print(app.url_map)
+  @app.route('/')
+  def index():
+    return 'server started on '+str(config.PORT)+' PORT '+str(config.ENV)
+  # app.run(port=config.PORT)
+  app.run()
