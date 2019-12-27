@@ -1,4 +1,7 @@
-from app import app
+# from app import app
+from flask import *
+
+app = Flask(__name__)
 import config
 if __name__ == '__main__':
   # print(app.url_map)
