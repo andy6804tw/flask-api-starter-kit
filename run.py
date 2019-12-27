@@ -1,15 +1,13 @@
-# from app import app
-from flask import *
-
-app = Flask(__name__)
+from app import app
 import config
+
 @app.route('/')
-def index():
-  # return 'server started on '+str(config.PORT)+' PORT '+str(config.ENV)
-  return'sadsadsad'
+  def index():
+    return 'server started on '+str(config.PORT)+' PORT '+str(config.ENV)
 
 if __name__ == '__main__':
   # print(app.url_map)
-  
-  # app.run(port=config.PORT)
-  app.run(debug=True)
+  @app.route('/')
+  def index():
+    # return 'server started on '+str(config.PORT)+' PORT '+str(config.ENV)
+  app.run(port=config.PORT)
