@@ -5,4 +5,5 @@ if __name__ == '__main__':
   @app.route('/')
   def index():
     return 'server started on '+str(config.PORT)+' PORT '+str(config.ENV)
-  app.run(port=config.PORT)
+  # app.run(port=config.PORT)
+  app.run()
