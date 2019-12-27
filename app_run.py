@@ -1,4 +1,4 @@
-# from app import app
+from app import app
 import config
 if __name__ == '__main__':
   # print(app.url_map)
@@ -6,4 +6,4 @@ if __name__ == '__main__':
   def index():
     return 'server started on '+str(config.PORT)+' PORT '+str(config.ENV)
   # app.run(port=config.PORT)
-  app.run()
+  app.run(debug=True)
