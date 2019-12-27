@@ -1,1 +1,1 @@
-web gunicorn API.run:app
+web gunicorn --chdir ./API run:app
