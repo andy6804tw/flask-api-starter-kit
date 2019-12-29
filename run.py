@@ -1,5 +1,4 @@
 from app import app
-import cv2
 import config
 
 @app.route('/')
