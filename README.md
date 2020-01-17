@@ -15,7 +15,7 @@ cd flask-api-starter-kit
 ### Installation
 When that's done, install the project dependencies.
 ```bash
-python install -r requirements.txt
+pip install -r requirements.txt
 ```
 
 ### Running the Project
